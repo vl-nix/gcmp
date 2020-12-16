@@ -1,0 +1,11 @@
+<gresources>
+  <gresource prefix="/gcmp">
+    <file preprocess="to-pixdata">gcmp.png</file>
+    <file preprocess="to-pixdata">gcmp-ext.png</file>
+    <file preprocess="to-pixdata">gcmp-copy.png</file>
+    <file preprocess="to-pixdata">gcmp-dark.png</file>
+    <file preprocess="to-pixdata">gcmp-info.png</file>
+    <file preprocess="to-pixdata">gcmp-quit.png</file>
+    <file preprocess="to-pixdata">gcmp-header.png</file>
+  </gresource>
+</gresources>

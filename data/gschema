@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="gcmp">
+  <schema id="org.gtk.gcmp" path="/org/gtk/gcmp/">
+    <key name="dark" type="b">
+      <default>false</default>
+    </key>
+    <key name="digits" type="u">
+      <default>24</default>
+    </key>
+    <key name="opacity" type="u">
+      <default>100</default>
+    </key>
+    <key name="theme" type="s">
+      <default>'none'</default>
+    </key>
+    <key name="button-size" type="u">
+      <default>80</default>
+    </key>
+  </schema>
+</schemalist>
