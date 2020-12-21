@@ -171,6 +171,6 @@ static void gcmp_tool_class_init ( GcmpToolClass *class )
 
 GcmpTool * gcmp_tool_new ( uint button_size )
 {
-	return g_object_new ( GCMP_TOOL_TYPE_BOX, "button-size", button_size, NULL );
+	return g_object_new ( GCMP_TYPE_TOOL, "button-size", button_size, NULL );
 }
 

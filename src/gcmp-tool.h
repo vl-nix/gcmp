@@ -26,7 +26,7 @@ enum bt_num
 	BN0, BDT, BPR, BAD, BSN, BCS, BTN, BDR
 };
 
-#define GCMP_TOOL_TYPE_BOX gcmp_tool_get_type ()
+#define GCMP_TYPE_TOOL gcmp_tool_get_type ()
 
 G_DECLARE_FINAL_TYPE ( GcmpTool, gcmp_tool, GCMP, TOOL, GtkBox )
 

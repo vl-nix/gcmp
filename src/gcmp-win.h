@@ -11,7 +11,7 @@
 
 #include "gcmp-app.h"
 
-#define GCMP_WIN_TYPE_WINDOW gcmp_win_get_type ()
+#define GCMP_TYPE_WIN gcmp_win_get_type ()
 
 G_DECLARE_FINAL_TYPE ( GcmpWin, gcmp_win, GCMP, WIN, GtkWindow )
 

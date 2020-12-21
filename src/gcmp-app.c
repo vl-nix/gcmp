@@ -48,5 +48,5 @@ static void gcmp_app_class_init ( GcmpAppClass *class )
 
 GcmpApp * gcmp_app_new ( void )
 {
-	return g_object_new ( GCMP_APP_TYPE_APPLICATION, "application-id", "org.gtk.gcmp", NULL );
+	return g_object_new ( GCMP_TYPE_APP, "application-id", "org.gtk.gcmp", NULL );
 }

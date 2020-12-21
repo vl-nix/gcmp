@@ -824,7 +824,7 @@ static void gcmp_win_class_init ( GcmpWinClass *class )
 
 GcmpWin * gcmp_win_new ( GcmpApp *app )
 {
-	GcmpWin *win = g_object_new ( GCMP_WIN_TYPE_WINDOW, "application", app, NULL );
+	GcmpWin *win = g_object_new ( GCMP_TYPE_WIN, "application", app, NULL );
 
 	gtk_window_present ( GTK_WINDOW ( win ) );
 

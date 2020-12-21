@@ -14,7 +14,7 @@
 /* Precision ( maximum characters ) */
 #define MAX_DIGITS 1000
 
-#define GCMP_APP_TYPE_APPLICATION gcmp_app_get_type ()
+#define GCMP_TYPE_APP gcmp_app_get_type ()
 
 G_DECLARE_FINAL_TYPE ( GcmpApp, gcmp_app, GCMP, APP, GtkApplication )
 
