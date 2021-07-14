@@ -11,9 +11,9 @@
 
 #include <gtk/gtk.h>
 
-#define GCMP_TYPE_APP gcmp_app_get_type ()
+#define GCMP_TYPE_ENTRY gcmp_entry_get_type ()
 
-G_DECLARE_FINAL_TYPE ( GcmpApp, gcmp_app, GCMP, APP, GtkApplication )
+G_DECLARE_FINAL_TYPE ( GcmpEntry, gcmp_entry, GCMP, ENTRY, GtkBox )
 
-GcmpApp * gcmp_app_new ( void );
+GcmpEntry * gcmp_entry_new ( void );
 

@@ -19,7 +19,7 @@ G_DEFINE_TYPE ( GcmpApp, gcmp_app, GTK_TYPE_APPLICATION )
 
 static void gcmp_new_win ( GApplication *app )
 {
-	G_GNUC_UNUSED GcmpWin *win = gcmp_win_new ( GCMP_APP ( app ) );
+	gcmp_win_new ( GCMP_APP ( app ) );
 }
 
 static void gcmp_app_activate ( GApplication *app )

@@ -26,12 +26,3 @@ configure_file(
   install_dir: join_paths('share', 'applications')
 )
 
-path_gschema = join_paths(get_option('prefix'), get_option('datadir'), 'glib-2.0/schemas')
-gschema_file = configure_file(input: 'gschema', output: 'org.gtk.gcmp.gschema.xml', copy: true)
-install_data(gschema_file, install_dir: path_gschema)
-
-cmd_compile_schema = 'glib-compile-schemas ' + path_gschema
-meson.add_install_script('sh', '-c', cmd_compile_schema)
-
-subdir('icons')
-

@@ -4,14 +4,18 @@
 
 * Multi-Precision arithmetic ( MPFR )
 
+
 #### Percent
 
 * Example: 1250 % 4 = 1250 * 4 / 100 = 50
 
+
 #### Dependencies
 
+* gcc, meson
 * libmpfr ( & dev )
 * libgtk 3.0 ( & dev )
+
 
 #### Build
 
